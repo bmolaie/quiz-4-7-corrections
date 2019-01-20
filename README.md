@@ -69,7 +69,7 @@ if (score >= 90) {
     letterGrade = "F";
 }
 ```
-This is the correct answer as the answer I chose could accomplish the same task, but it was much more extensive than this answer. This code can achieve the same thing, but in a more efficient manner. If one if-statement is not met, the function will move onto the next else-if.
+This is the correct answer as the answer I chose could accomplish the same task, but it was much more extensive than this answer. This code can achieve the same thing but in a more simple and efficient manner, which is what the question was asking for.
 
 12. The correct answer to this question was a while loop check its condition before running the loop body, whereas a do...while loop checks its condition after running the loop body. I can understand that the answer I chose was incorrect as it was stating the opposite of the correct answer. 
 ## quiz 6
