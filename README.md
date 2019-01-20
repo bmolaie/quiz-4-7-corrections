@@ -23,6 +23,7 @@ a < b && a < c
 c > a || c > b
 ```
 This is because the logical OR statement completes the bottom IF statement. Both conditions have to be true to make the statement output true, but if one or neither is false, it outputs false.
+
 5. The correct answer to this question was
 ```
 x === y
