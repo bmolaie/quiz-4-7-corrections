@@ -16,7 +16,7 @@ console.log(x, "parents who drive SUVs and ", y, "parent(s) who drive sedans are
 ```
 ## quiz 5
 1. The answers to this question were &&, =, and ||. I now realize that these are the correct answers as the question is asking for the logical operators. This would be these correct answer as these operators deal with boolean logic.
-2. I had gotten 0.63/1 for this question as I marked = as an answer and did not mark != and !== as correct answers. The question is asking for relational operators which makes these answers, in addition to the answers I marked, correct because these are used to compare equality.
+2. I had gotten partial credit for this question as I marked = as an answer and did not mark != and !== as correct answers. The question is asking for relational operators which makes these answers, in addition to the answers I marked, correct because these are used to compare equality.
 4. The  correct answer to this question was 
 ```
 a < b && a < c
@@ -34,7 +34,7 @@ x === y
 x != y
 ```
 I now understand that the first one is correct because both operators mean it is not equal to but !== compares data and value type, whereas != compares value only.
-6. The correct answer was  10, 8, and 20, respectively. This is because ------------------
+6. The correct answer was  10, 8, and 20, respectively. This is because 17 and N puts the user into the child and visitors categories, giving the user an admission of 10 with no student discount, while 16 and Y gives the user the child and student categories which first gives the user an admission of 10,  then 10 - (10 * 0.2). This gives the user an admission of 8. Running 24 and N through the code gives the user a status of adult and N, which means that the user is not a child, and has an admission of 20.
 7. I got this question partially correct. I did not mark let status = (studentGrade < 88) ? "ND" : "HR"; as a correct answer. However, it is correct because the if-else statements can be replaced by the two ternary operators. This answer is the inverse of the operators I had selected.
 9. The correct answer to this question was
 ```
@@ -69,8 +69,8 @@ This is the correct answer as the answer I chose could accomplish the same task,
 ## quiz 6
 1. I marked console.log as a correct answer, in addition to prompt for this question. Prompt is correct. However, console.log is incorrect as it is not designed to return a value.
 2. I received partial credit for this answer as I marked console.log and prompt correct. However, I did not mark alert as a correct answer. Alert is correct, though, because it is a built-in function that is designed to accept parameters.
-4. The correct answer to this question was that the parameters that did not receive arguments will be undefined. This is correct since --------------
-5. This answer was that the extra arguments will be ignored. This is because ---------
+4. My answer was wrong since I put that the function will return undefined. This is incorrect because only the parameters that did not receive arguments will be undefined, not the whole function. 
+5. My answer was that the extra argument values will overwrite one or more of the parameters. However, I can understand that if more arguments are passed than there are parameters in the function definition, the extra arguments will be ignored. 
 6. This answer would be correct because it accepts the parameters and achieves the goal of the function. The answer I chose is incorrect since the variables do not need to be declared again.
 9. I received partial credit for this question. I did not include this answer as correct:
 ```function multiply(a, b, c, d) {
@@ -85,9 +85,11 @@ This is the correct answer as the answer I chose could accomplish the same task,
     }
 }
 ```
-I now understand that this can be included as a correct answer as it achieves the same thing as the other two functions. However, it is simply for extensive.
+I now understand that this can be included as a correct answer as it achieves the same thing as the other two functions. However, it is simply more extensive.
 10. I did not receive partial credit for this question, but I was partially correct as I marked one of the two possible answers correct. I did not include that the function is not designed to accept any parameters as a correct answer, however. I now know that this is correct since the function is not designed to accept any parameters as there is not enough information to determine whether it is true.
-12. The correct answer to this question was that 1 and 2 will be printed to the console. This is because y was declared using the keyword var. A reference error would only have ---------
+12. The correct answer to this question was that 1 and 2 will be printed to the console. This is because y was declared using the keyword var. A reference error would have occurred if var was not used.
+13. The answer to this question is true instead of false since the var keyword pushes a variable to the function scope.
+14. It is true for variables such as let and const to declare a variable inside of an if statement can only be referenced from within that same scope. This is because variables declared using var are brought to the top of the parent function in which they're declared. This means that no matter where the declaration takes place, the browser will move those declarations to the top of the function definition.
 ## quiz 7
 8. I answer one out of the two answers for this question correct. I did not mark the following correct answer, though:
 ```
@@ -95,4 +97,4 @@ for (let i = 0; i < list.length; i++) {
     console.log(list[i]);
 }
 ```
-This is correct since ----------
+This is correct since using the name of the array, followed by .length allows us to access the number of elements in the array. It, essentially, tells us how many elements are in the list.
