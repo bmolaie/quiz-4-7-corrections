@@ -35,8 +35,11 @@ x === y
 x != y
 ```
 I now understand that the first one is correct because both operators mean it is not equal to but !== compares data and value type, whereas != compares value only.
+
 6. The correct answer was  10, 8, and 20, respectively. This is because 17 and N puts the user into the child and visitors categories, giving the user an admission of 10 with no student discount, while 16 and Y gives the user the child and student categories which first gives the user an admission of 10,  then 10 - (10 * 0.2). This gives the user an admission of 8. Running 24 and N through the code gives the user a status of adult and N, which means that the user is not a child, and has an admission of 20.
+
 7. I got this question partially correct. I did not mark let status = (studentGrade < 88) ? "ND" : "HR"; as a correct answer. However, it is correct because the if-else statements can be replaced by the two ternary operators. This answer is the inverse of the operators I had selected.
+
 9. The correct answer to this question was
 ```
 switch (dayCode)
@@ -51,6 +54,7 @@ switch (dayCode)
 }
 ```
 However, I did not select this answer as I was unaware that "break" was supposed to be written at the end of each line of code. Also, cases do not use quotations to show the case number.
+
 10. The correct answer was 
 ```
 if (score >= 90) {
@@ -66,6 +70,7 @@ if (score >= 90) {
 }
 ```
 This is the correct answer as the answer I chose could accomplish the same task, but it was much more extensive than this answer. This code can achieve the same thing, but in a more efficient manner. If one if-statement is not met, the function will move onto the next else-if.
+
 12. The correct answer to this question was a while loop check its condition before running the loop body, whereas a do...while loop checks its condition after running the loop body. I can understand that the answer I chose was incorrect as it was stating the opposite of the correct answer. 
 ## quiz 6
 1. I marked console.log as a correct answer, in addition to prompt for this question. Prompt is correct. However, console.log is incorrect as it is not designed to return a value.
@@ -87,9 +92,13 @@ This is the correct answer as the answer I chose could accomplish the same task,
 }
 ```
 I now understand that this can be included as a correct answer as it achieves the same thing as the other two functions. However, it is simply more extensive.
+
 10. I did not receive partial credit for this question, but I was partially correct as I marked one of the two possible answers correct. I did not include that the function is not designed to accept any parameters as a correct answer, however. I now know that this is correct since the function is not designed to accept any parameters as there is not enough information to determine whether it is true.
+
 12. The correct answer to this question was that 1 and 2 will be printed to the console. This is because y was declared using the keyword var. A reference error would have occurred if var was not used.
+
 13. The answer to this question is true instead of false since the var keyword pushes a variable to the function scope.
+
 14. It is true for variables such as let and const to declare a variable inside of an if statement can only be referenced from within that same scope. This is because variables declared using var are brought to the top of the parent function in which they're declared. This means that no matter where the declaration takes place, the browser will move those declarations to the top of the function definition.
 ## quiz 7
 8. I answer one out of the two answers for this question correct. I did not mark the following correct answer, though:
